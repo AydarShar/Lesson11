@@ -3,10 +3,10 @@
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class TunaTest extends Tuna {
+public class TunaTest {
     @Test
     void test() {
-        TunaTest tuna = new TunaTest();
+        Tuna tuna = new Tuna();
         int expected = 91;
         int actual = tuna.getNumberOfScales();
         Assertions.assertEquals(expected, actual);
